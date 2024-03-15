@@ -13,7 +13,7 @@ def look_next_opened_box(opened_boxes):
         if box.get('status') == 'opened':
             box['status'] = 'opened/checked'
             return box.get('keys')
-        return None
+    return None
 
 
 def canUnlockAll(boxes):
