@@ -1,2 +1,3 @@
 # ALX INTERVIEW
-Sample projects in divcerse languages to test skills
+
+Sample projects in diverse languages to test skills
