@@ -2,6 +2,7 @@
 
 import sys
 
+
 def print_message(status_code, total_file_size):
     """Method to print the status code and total file size
 
@@ -51,4 +52,3 @@ try:
 
 finally:
     print_message(status_code, total_file_size)
-
