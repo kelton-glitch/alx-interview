@@ -2,7 +2,7 @@
 """ UTF-8 Validation"""
 
 
-def validators(data):
+def validUTF8(data):
     """
     method that determines if a goven data set represents a valid
     UTF-8 encoding.
@@ -30,7 +30,7 @@ def validators(data):
 
         else:
             if not (i & mask_1 and not (i & mask_2)):
-                return False
+                    return False
 
         number_bytes -= 1
 
