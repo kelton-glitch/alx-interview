@@ -14,4 +14,4 @@ const exactOrder = (actors, i) => {
     console.log(JSON.parse(body).name);
     exactOrder(actors, i + 1);
   });
-}
+};
